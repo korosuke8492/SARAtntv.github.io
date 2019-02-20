@@ -1,0 +1,118 @@
+body{
+	background-image: url(../image/sara.jpg);
+	font-family: 'M PLUS Rounded 1c', sans-serif;
+	margin: 0px;
+}
+div.all{
+	width: 50%;
+	background-color: white;
+	border-radius: 15px;
+	color: black;
+	border-style: outset;
+	margin-top: 80px;
+	margin-bottom: 80px;
+	margin-right: auto;
+	margin-left: auto;
+	text-align: center;
+}
+div.main{
+	margin: 30px auto;
+}
+.open{
+	width: 90%;
+	height: 30px;
+	margin: 10px auto;
+	padding: 10px;
+	background: #66CC99;
+	cursor: pointer;
+	box-shadow: 3px 3px;
+}
+#slideBox{
+	display:none;
+	padding: 10px;
+	width: 90%;
+	margin: 30px auto;
+}
+div.footer{
+	background-color: white;
+	position: fixed;
+	bottom: 0;
+	margin: 0px;
+	padding: 0px;
+	width: 100%;
+}
+p.welcome{
+	font-size: 50px;
+}
+p.forsaralistener{
+	font-size: 30px;
+}
+div.tweet{
+	position: absolute;
+	top: 42px;
+	right: 0;
+	height: 100%;
+	overflow: hidden;
+}
+.menu{
+	background-color: white;
+	width: 100%;
+	z-index: 1000;
+	margin: 0;
+	padding: 0;
+	border-bottom: 1px solid #645d91;
+	height: 40px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	overflow:hidden;
+}
+.menu_a{
+	vertical-align: middle;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
+	display: inline;
+	padding: 10px;
+}
+img.menu_a{
+	padding: 0;
+}
+.menu_a:hover{
+	background-color: #ffdbdb;
+}
+.menu_b{
+	vertical-align: middle;
+	text-decoration: none;
+	height: 40px;
+	line-height: 40px;
+	display: inline;
+	font-size: 35px;
+	color: black;
+	float: right;
+	border-left: 2px solid #645d91;
+}
+.menu_b:hover{
+	background-color:#ffdbdb;
+}
+div.sabago{
+	width: 90%;
+	height: 30px;
+	background-color: #66CC99;
+	padding: 10px;
+	margin: auto;
+	cursor: pointer;
+	text-decoration: none;
+	color: black;
+	box-shadow: 3px 3px;
+}
+.sabagolink{
+	text-decoration: none;
+	color:black;
+}
+
+h5 {
+	color: red;
+	font-size: 30px;
+}
